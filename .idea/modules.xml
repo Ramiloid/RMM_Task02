@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RMM_Taks02.iml" filepath="$PROJECT_DIR$/.idea/modules/RMM_Taks02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RMM_Task02_Android/RMM_Taks02.RMM_Task02_Android.iml" filepath="$PROJECT_DIR$/.idea/modules/RMM_Task02_Android/RMM_Taks02.RMM_Task02_Android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RMM_Task02_Android/RMM_Taks02.RMM_Task02_Android.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/RMM_Task02_Android/RMM_Taks02.RMM_Task02_Android.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RMM_Task02_Android/RMM_Taks02.RMM_Task02_Android.main.iml" filepath="$PROJECT_DIR$/.idea/modules/RMM_Task02_Android/RMM_Taks02.RMM_Task02_Android.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RMM_Task02_Android/RMM_Taks02.RMM_Task02_Android.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/RMM_Task02_Android/RMM_Taks02.RMM_Task02_Android.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TSN_DEMO_03_Questionnaire/RMM_Taks02.TSN_DEMO_03_Questionnaire.iml" filepath="$PROJECT_DIR$/.idea/modules/TSN_DEMO_03_Questionnaire/RMM_Taks02.TSN_DEMO_03_Questionnaire.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TSN_DEMO_03_Questionnaire/RMM_Taks02.TSN_DEMO_03_Questionnaire.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/TSN_DEMO_03_Questionnaire/RMM_Taks02.TSN_DEMO_03_Questionnaire.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TSN_DEMO_03_Questionnaire/RMM_Taks02.TSN_DEMO_03_Questionnaire.main.iml" filepath="$PROJECT_DIR$/.idea/modules/TSN_DEMO_03_Questionnaire/RMM_Taks02.TSN_DEMO_03_Questionnaire.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TSN_DEMO_03_Questionnaire/RMM_Taks02.TSN_DEMO_03_Questionnaire.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/TSN_DEMO_03_Questionnaire/RMM_Taks02.TSN_DEMO_03_Questionnaire.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rmm_task_002/RMM_Taks02.rmm_task_002.iml" filepath="$PROJECT_DIR$/.idea/modules/rmm_task_002/RMM_Taks02.rmm_task_002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rmm_task_002/RMM_Taks02.rmm_task_002.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/rmm_task_002/RMM_Taks02.rmm_task_002.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rmm_task_002/RMM_Taks02.rmm_task_002.main.iml" filepath="$PROJECT_DIR$/.idea/modules/rmm_task_002/RMM_Taks02.rmm_task_002.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rmm_task_002/RMM_Taks02.rmm_task_002.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/rmm_task_002/RMM_Taks02.rmm_task_002.unitTest.iml" />
+    </modules>
+  </component>
+</project>
