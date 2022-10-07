@@ -1,2 +1,4 @@
-include 'RMM_Task02_Android', 'TSN_DEMO_03_Questionnaire'
+include 'RMM_Task02_Android'
 include ':rmm_task_002'
+include ':rmm_task01_android'
+include ':rmm_task03_android'

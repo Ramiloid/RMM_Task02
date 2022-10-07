@@ -12,7 +12,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/RMM_Task02_Android" />
-            <option value="$PROJECT_DIR$/TSN_DEMO_03_Questionnaire" />
+            <option value="$PROJECT_DIR$/rmm_task01_android" />
+            <option value="$PROJECT_DIR$/rmm_task03_android" />
             <option value="$PROJECT_DIR$/rmm_task_002" />
           </set>
         </option>

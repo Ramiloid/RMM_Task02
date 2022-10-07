@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Выберите кота!"
+            android:id="@+id/textView"
+            android:textSize="20dp"
+            >
+
+        </TextView>
+       <RadioGroup
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:minHeight="300dp"
+           android:gravity="left"
+           android:layout_marginHorizontal="20dp"
+           android:layout_below="@+id/textView"
+           android:id="@+id/RG_1"
+           >
+
+           <RadioButton
+               android:id="@+id/RB_1"
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:minHeight="100dp"
+               android:maxHeight="200dp"
+               android:drawableRight="@drawable/stand"
+               android:tag="stand"
+               android:checked="true"
+
+
+               ></RadioButton>
+           <RadioButton
+               android:id="@+id/RB_2"
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:maxHeight="200dp"
+               android:minHeight="100dp"
+               android:drawableRight="@drawable/handle"
+               android:tag="handle"
+               ></RadioButton>
+           <RadioButton
+               android:drawableRight="@drawable/handle"
+               android:id="@+id/RB_3"
+               android:maxHeight="200dp"
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:minHeight="100dp"
+               android:tag="handle"
+               ></RadioButton>
+
+       </RadioGroup>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:minHeight="100dp"
+            android:id="@+id/Image1"
+
+
+            ></ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:id="@+id/LL_1"
+            android:gravity="center"
+            android:minHeight="40dp"
+            android:layout_below="@+id/RG_1">
+            <Button
+                android:onClick="onBack"
+                android:id="@+id/Back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Назад"
+                android:layout_marginHorizontal="10dp"></Button>
+            <Button
+                android:onClick="onForward"
+                android:id="@+id/Forward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Вперед"
+                android:layout_marginHorizontal="10dp"></Button>
+            <Button
+                android:id="@+id/Exit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Выйти"
+                android:onClick="onExit"
+                android:layout_marginHorizontal="10dp"></Button>
+
+        </LinearLayout>
+    </RelativeLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

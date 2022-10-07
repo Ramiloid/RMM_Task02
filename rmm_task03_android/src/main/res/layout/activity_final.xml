@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:gravity="center">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:background="@drawable/ic_launcher_background"
+
+        >
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:text="Ваша информация"
+            android:layout_margin="20dp"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/NamePlease"
+            android:text="Имя"
+            android:layout_below="@+id/textview"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:textSize="25dp"
+            android:textColor="@color/purple_700"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textviewName"
+            android:gravity="center"
+            android:layout_marginHorizontal="10dp"
+            android:layout_below="@+id/NamePlease"
+            android:text="Имя"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/SurnamePlease"
+            android:text="Фамилия"
+            android:layout_below="@+id/textviewName"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:textSize="25dp"
+            android:textColor="@color/purple_700"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textviewSurname"
+            android:gravity="center"
+            android:text="Фамилия"
+            android:layout_marginHorizontal="20dp"
+            android:layout_below="@+id/SurnamePlease"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/AgePlease"
+            android:text="Возраст"
+            android:layout_below="@+id/textviewSurname"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:textSize="25dp"
+            android:textColor="@color/purple_700"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textviewAge"
+            android:gravity="center"
+            android:layout_marginHorizontal="20dp"
+            android:layout_below="@+id/AgePlease"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:text="Возраст"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ImagePlease"
+            android:text="Выбранный кот"
+            android:layout_below="@+id/textviewAge"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:textSize="25dp"
+            android:textColor="@color/purple_700"
+            ></TextView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="100dp"
+            android:layout_marginHorizontal="20dp"
+            android:scaleType="fitCenter"
+            android:layout_below="@+id/ImagePlease"
+            android:id="@+id/imageViewFinal"
+            android:maxHeight="200dp"
+
+            >
+
+        </ImageView>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_below="@+id/imageViewFinal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+
+            >
+
+            <Button
+                android:id="@+id/buttonBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:text="Назад"
+                android:onClick="onBack"
+                >
+
+            </Button>
+
+            <Button
+                android:id="@+id/buttonExit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:text="Выход"
+                android:onClick="onExit"
+                >
+
+
+
+            </Button>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
