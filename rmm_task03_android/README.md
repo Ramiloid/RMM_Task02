@@ -3,7 +3,9 @@
 
 **Многооконная программа:**
 
-![Screenshot](screenshot1.png)
+![Screenshot](MainActivity.png)
 
-![Screenshot](screenshot2.png)
+![Screenshot](SeconActivity.png)
+
+![Screenshot](FinalActivity.png)
 
