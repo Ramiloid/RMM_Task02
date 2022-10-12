@@ -26,64 +26,67 @@
     <!-- Поле ввотда текста c шириной в 10 букв "М",
          с авторазмером по высоте, любые символы
          и сверху отступ в 5 dp -->
-    <EditText
-        android:id="@+id/editText_a"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:ems="10"
-        android:hint="@string/a"
-        android:inputType="textPersonName"
-        android:autofillHints="no"
-        android:maxLength="2"
-        android:numeric="integer"
-        android:minHeight="48dp"/>
+
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/editText_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints="no"
+            android:ems="5"
+            android:hint="@string/a"
+            android:inputType="textPersonName"
+            android:maxLength="2"
+            android:minHeight="48dp"
+            android:numeric="integer" />
 
     <!-- Поле ввотда текста на всю ширину экрана,
          с авторазмером по высоте, любые символы
          и снизу отступ в 5 dp -->
-    <EditText
-        android:id="@+id/editText_b"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="@string/b"
-        android:ems="10"
-        android:layout_marginBottom="5dp"
-        android:inputType="textPersonName"
-        android:importantForAutofill="no"
-        android:maxLength="2"
-        android:numeric="integer"
-        android:minHeight="48dp"/>
+        <EditText
+            android:id="@+id/editText_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:hint="@string/b"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:maxLength="2"
+            android:minHeight="48dp"
+            android:numeric="integer" />
 
-    <EditText
-        android:id="@+id/editText_c"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="@string/c"
-        android:ems="10"
-        android:layout_marginBottom="5dp"
-        android:inputType="textPersonName"
-        android:importantForAutofill="no"
-        android:maxLength="2"
-        android:numeric="integer"
-        android:minHeight="48dp"/>
+        <EditText
+            android:id="@+id/editText_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:hint="@string/c"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:maxLength="2"
+            android:minHeight="48dp"
+            android:numeric="integer" />
 
-    <EditText
-        android:id="@+id/editText_x"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="@string/x"
-        android:ems="10"
-        android:layout_marginBottom="5dp"
-        android:inputType="textPersonName"
-        android:importantForAutofill="no"
-        android:maxLength="2"
-        android:numeric="integer"
-        android:minHeight="48dp"/>
+        <EditText
+            android:id="@+id/editText_x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:hint="@string/x"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:maxLength="2"
+            android:numeric="integer"
+            tools:ignore="TouchTargetSizeCheck" />
 
     <!-- Кнопка на всю ширину экрана и с авторазмером по высоте,
          при нажатии будет искать и вызывать метод "onClick",
          отступ по-краям в 5 dp-->
+    </LinearLayout>
     <Button
         android:id="@+id/buttonSum"
         android:layout_width="match_parent"

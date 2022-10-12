@@ -70,7 +70,7 @@ public class SecondActivity extends AppCompatActivity {
         Intent intent = new Intent(SecondActivity.this, FinalActivity.class);
         RadioButton rb = findViewById(RG.getCheckedRadioButtonId());
         System.out.println("####################################"+rb.getTag());
-        int id = Integer.parseInt(String.valueOf(getResources().getIdentifier("com.example.rmm_task03_android:drawable/" + rb.getTag(),null,null)));
+        int id = Integer.parseInt(String.valueOf(getResources().getIdentifier(getPackageName()+":drawable/" + rb.getTag(),null,null)));
         System.out.println(id+"ididididiididididi");
 
 

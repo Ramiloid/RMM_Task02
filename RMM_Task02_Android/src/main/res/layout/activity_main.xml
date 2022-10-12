@@ -80,7 +80,11 @@
                         android:ems="1"
                         android:importantForAutofill="no"
                         android:inputType="number|text"
-                        tools:ignore="LabelFor" />
+                        tools:ignore="LabelFor"
+                        android:numeric="integer"
+                        android:maxLength="2"
+                        android:minHeight="48dp"
+                        />
 
                     <TextView
                         android:id="@+id/textView2"
@@ -94,7 +98,11 @@
                         android:ems="1"
                         android:importantForAutofill="no"
                         android:inputType="number|text"
-                        tools:ignore="LabelFor" />
+                        tools:ignore="LabelFor"
+                        android:numeric="integer"
+                        android:maxLength="2"
+                        android:minHeight="48dp"
+                        />
 
                     <!-- Текстовая надпись справа -->
                     <TextView
@@ -109,7 +117,10 @@
                         android:ems="1"
                         android:importantForAutofill="no"
                         android:inputType="number|text"
-                        tools:ignore="LabelFor" />
+                        tools:ignore="LabelFor"
+                        android:numeric="integer"
+                        android:maxLength="2"
+                        android:minHeight="48dp"/>
 
                     <!-- Текстовая надпись справа -->
                     <TextView
@@ -124,7 +135,10 @@
                         android:ems="1"
                         android:importantForAutofill="no"
                         android:inputType="number|text"
-                        tools:ignore="LabelFor" />
+                        tools:ignore="LabelFor"
+                        android:numeric="integer"
+                        android:maxLength="2"
+                        android:minHeight="48dp"/>
 
                 </TableRow>
 
@@ -163,7 +177,10 @@
                         android:layout_span="3"
                         android:gravity="center"
                         android:text="y="
-                        tools:ignore="HardcodedText" />
+                        tools:ignore="HardcodedText"
+                        android:minHeight="48dp"
+                        android:numeric="integer"
+                        />
 
                     <!-- Текстовая надпись для отображения "x2" по-центру в 3 ячейки  -->
 
