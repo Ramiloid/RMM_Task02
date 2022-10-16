@@ -1,0 +1,42 @@
+div.cinereousTable {
+  font-family: "Arial Black", Gadget, sans-serif;
+  border: 6px solid #948473;
+  background-color: #FFE3C6;
+  width: 100%;
+  text-align: center;
+}
+.divTable.cinereousTable .divTableCell, .divTable.cinereousTable .divTableHead {
+  border: 2px solid #948473;
+  padding: 4px 4px;
+}
+.divTable.cinereousTable .divTableBody .divTableCell {
+  font-size: 13px;
+}
+.divTable.cinereousTable .divTableHeading {
+  background: #948473;
+  background: -moz-linear-gradient(top, #afa396 0%, #9e9081 66%, #948473 100%);
+  background: -webkit-linear-gradient(top, #afa396 0%, #9e9081 66%, #948473 100%);
+  background: linear-gradient(to bottom, #afa396 0%, #9e9081 66%, #948473 100%);
+}
+.divTable.cinereousTable .divTableHeading .divTableHead {
+  font-size: 17px;
+  font-weight: bold;
+  color: #F0F0F0;
+  text-align: left;
+  border-left: 2px solid #948473;
+}
+.divTable.cinereousTable .divTableHeading .divTableHead:first-child {
+  border-left: none;
+}
+
+.cinereousTable .tableFootStyle {
+  font-size: 16px;
+}
+/* DivTable.com */
+.divTable{ display: table; }
+.divTableRow { display: table-row; }
+.divTableHeading { display: table-header-group;}
+.divTableCell, .divTableHead { display: table-cell;}
+.divTableHeading { display: table-header-group;}
+.divTableFoot { display: table-footer-group;}
+.divTableBody { display: table-row-group;}

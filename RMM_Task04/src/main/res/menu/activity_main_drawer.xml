@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/contacts"
+        android:icon="@drawable/ic_view_list_black_24dp"
+        android:title="@string/contacts" />
+
+    <item android:title="@string/laws">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/laws_kz_l1"
+                    android:icon="@drawable/ic_error_outline_black_24dp"
+                    android:title="@string/laws_kz_l1" />
+                <item
+                    android:id="@+id/laws_ru_l1"
+                    android:icon="@drawable/ic_error_outline_black_24dp"
+                    android:title="@string/laws_ru_l1" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/additional">
+        <menu>
+            <item
+                android:id="@+id/nav_view1"
+                android:icon="@drawable/ic_import_contacts_black_24dp"
+                android:title="@string/mobile_location" />
+            <item
+                android:id="@+id/nav_view2"
+                android:icon="@drawable/ic_import_contacts_black_24dp"
+                android:title="@string/find_telephone" />
+        </menu>
+    </item>
+
+
+
+
+    <item
+        android:id="@+id/confident"
+        android:icon="@drawable/ic_view_list_black_24dp"
+        android:title="@string/confident" />
+
+    <item android:title="@string/communicate">
+
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_drafts_black_24dp"
+                android:title="@string/send_mail" />
+        </menu>
+    </item>
+
+</menu>
