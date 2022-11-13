@@ -40,8 +40,9 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.nio.charset.StandardCharsets;
 import java.sql.Connection;
-import com.mysql.jdbc.Driver;
 import java.sql.DriverManager;
+
+import java.sql.*;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.lang.reflect.Method;
@@ -288,7 +289,7 @@ public class MainActivity extends AppCompatActivity
                 "\n" +
                 "<div class=\"divTableBody\">";
 
-        try (Connection connection = DriverManager.getConnection(URL, USER, PASSWORD)) {
+        try (Connection connection = DriverManager.getConnection("jdbc:mariadb://localhost/", "root", null)) {
             String sql = "SELECT * FROM telephons";
             Statement statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery(sql);
@@ -324,6 +325,7 @@ public class MainActivity extends AppCompatActivity
 
         } catch (Exception e) {
             Log.e("InfoAsyncTask", "Error reading school information", e);
+            e.printStackTrace();
         }
 
     }

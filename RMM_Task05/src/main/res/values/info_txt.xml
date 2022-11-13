@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="startMarker_id">m0</string>
+    <string name="startMarker_title">Мои места</string>
+    <string name="startMarker_info">
+        <![CDATA[
+               <b>Акимат</b> <BR>
+        Начнем мы с акимата просто потому<BR>
+        ]]>
+        </string>
+    <string name="startMarker_file"></string>
+
+    <!--  -->
+
+    <string name="marker1_id">m1</string>
+    <string name="marker1_title">Дом</string>
+    <string name="marker1_txt_click">Мой дом</string>
+    <string name="marker1_info">
+        <![CDATA[
+        <b>Лермонтова-46- мой дом</b> (ПГУ)<BR>
+        Советский классик 1967 года постройки<BR>
+        Несмотря на престарелый возраст вполне комфортнее некоторых ЖК в городе<BR>
+        Вода всегда в срок и не отключают
+        ]]>
+        </string>
+    <string name="marker1_file">https://www.youtube.com/watch?v=Ib-qs2RMFk8</string>
+
+    <!--  -->
+
+    <string name="marker2_id">m2</string>
+    <string name="marker2_title">Айка</string>
+    <string name="marker2_txt_click">Айка-продовольственный магазин</string>
+    <string name="marker2_info">
+        <![CDATA[
+        <b>Айка </b> <BR>
+        Это магазин в который я постоянно хожу, близко расположен,
+        приемлемые цены, кроме фруктов.<BR>
+        ]]>
+        </string>
+    <string name="marker2_file">file:///android_asset/INEU/index.html</string>
+
+    <string name="marker3_id">m2</string>
+    <string name="marker3_title">Пекарня 5</string>
+    <string name="marker3_txt_click">Пекарня</string>
+    <string name="marker3_info">
+        <![CDATA[
+        <b>Пекарня номер 5 - </b> <BR>
+        Это отличная кофейня, стоимость кофе за объем средняя по городу<BR>
+        много сиропов, действует акция на завтрак до 12 часов дня кофе + круассан<BR>
+        так же каждый 6 кофе бесплатно<BR>
+        ]]>
+        </string>
+    <string name="marker3_file">https://www.instagram.com/pekarnya_n5/</string>
+
+
+    <string name="marker4_id">m2</string>
+    <string name="marker4_title">Изб.уч</string>
+    <string name="marker4_txt_click">Избирательный участок номер 21</string>
+    <string name="marker4_info">
+        <![CDATA[
+        <b>Избирательный участок </b> <BR>
+        Место куда нужно пойти 20 октября для голосования<BR>
+        за будущего президента РК<BR>
+        ]]>
+        </string>
+    <string name="marker4_file">https://en.wikipedia.org/wiki/2022_Kazakh_presidential_election</string>
+
+    <string name="marker5_id">m2</string>
+    <string name="marker5_title">Набережная</string>
+    <string name="marker5_txt_click">Набережная Павлодара</string>
+    <string name="marker5_info">
+        <![CDATA[
+        <b>Набережная,Набережка,Берег - </b> <BR>
+        Огромнейшая набережная, достопримечательность Павлодара,<BR>
+        Вводит в удивление приезжих россиян и гостей города,<BR>
+        Зимой становится самым ветрянным местом по моему мнению<BR>
+        ]]>
+        </string>
+    <string name="marker5_file">file:///android_asset/HTML/index.html</string>
+
+
+    <string name="marker6_id">m2</string>
+    <string name="marker6_title">IMPERIAL</string>
+    <string name="marker6_txt_click">Строительный магазин</string>
+    <string name="marker6_info">
+        <![CDATA[
+        <b>Империал </b> <BR>
+        магазин строительных материалов и всего для ремонта,<BR>
+        балдеж что близко, не балдеж что нет интернет магазина,<BR>
+        балдеж что оплата картой, не балдеж что через кассу<BR>
+        ]]>
+        </string>
+    <string name="marker6_file">https://imperial-pv.kz/</string>
+
+</resources>

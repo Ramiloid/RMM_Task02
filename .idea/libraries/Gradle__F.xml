@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: F">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/src/main/java/com/example/lib/mysql-connector-java-8.0.30.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
