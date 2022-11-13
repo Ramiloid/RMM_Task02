@@ -4,6 +4,6 @@
 
 ![Screenshot](screenshot2.png)
 
-![Screenshot](screenshot3.jpg)
+![Screenshot](screenshot3.png)
 
 https://console.cloud.google.com/google/maps-apis/apis
