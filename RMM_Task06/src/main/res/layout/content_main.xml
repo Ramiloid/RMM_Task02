@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/content_main"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="top"
+              android:background="@drawable/gradient"
+              android:orientation="vertical"
+              app:layout_behavior="@string/appbar_scrolling_view_behavior"
+              tools:context="kz.talipovsn.database.MainActivity"
+              tools:showIn="@layout/activity_main"
+
+
+    >
+
+    <Spinner
+        android:id="@+id/spinnerNew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        android:gravity="top"
+        android:layout_gravity="top"
+        >
+
+
+    </Spinner>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="Введите текст"
+        android:inputType="text"
+        android:textColorHint="#616161"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
+
+
+    </EditText>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </TextView>
+
+</LinearLayout>

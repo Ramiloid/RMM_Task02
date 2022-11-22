@@ -67,8 +67,8 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="color" value="eb0404" />
-                                                <entry key="imagePath" value="C:\Users\ADMIN-PC\AppData\Local\Temp\baseline_airplanemode_inactive_24.xml" />
+                                                <entry key="color" value="ff0000" />
+                                                <entry key="imagePath" value="C:\Users\ADMIN-PC\AppData\Local\Temp\baseline_computer_24.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -79,7 +79,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="url" value="jar:file:/F:/PROGRAMMS/AndroidStudio/plugins/android/lib/android.jar!/images/material/icons/materialicons/airplanemode_inactive/baseline_airplanemode_inactive_24.xml" />
+                                                <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/computer/baseline_computer_24.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -123,6 +123,7 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
+                                      <entry key="backgroundColor" value="2a2a2a" />
                                       <entry key="foregroundAssetType" value="CLIP_ART" />
                                     </map>
                                   </option>
