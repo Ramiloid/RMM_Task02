@@ -1,5 +1,6 @@
 package kz.talipovsn.database;
 
+import android.annotation.SuppressLint;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -26,7 +27,9 @@ public class MySQLite extends SQLiteOpenHelper {
     static final String MOVETYPE = "movetype";
     static final String MOVING = "moving";
     static final String EATTYPE = "eattype";
+    static final String WEIGHT ="weight";
     static final String ENGNAME = "engname";
+
 
     static final String ASSETS_FILE_NAME = "animals.txt"; // Имя файла из ресурсов с данными для БД
     static final String DATA_SEPARATOR = "|"; // Разделитель данных в файле ресурсов с телефонами
@@ -48,6 +51,7 @@ public class MySQLite extends SQLiteOpenHelper {
                 + MOVETYPE + " TEXT,"
                 + MOVING + " TEXT,"
                 + EATTYPE + " TEXT,"
+                + WEIGHT + " TEXT,"
                 + ENGNAME + " TEXT" + ")";
         db.execSQL(CREATE_CONTACTS_TABLE);
         System.out.println(CREATE_CONTACTS_TABLE);
@@ -63,13 +67,14 @@ public class MySQLite extends SQLiteOpenHelper {
     }
 
     // Добавление нового контакта в БД
-    public void addData(SQLiteDatabase db, String name, String ord, String move, String moving, String eat , String engname) {
+    public void addData(SQLiteDatabase db, String name, String ord, String move, String moving, String eat ,String weight, String engname) {
         ContentValues values = new ContentValues();
         values.put(NAME, name);
         values.put(ORDERING, ord);
         values.put(MOVETYPE, move);
         values.put(MOVING, moving);
         values.put(EATTYPE, eat);
+        values.put(WEIGHT,weight);
         values.put(ENGNAME, engname);
         db.insert(TABLE_NAME, null, values);
     }
@@ -94,10 +99,11 @@ public class MySQLite extends SQLiteOpenHelper {
                     String movetype= st.nextToken().trim(); // Извлекаем из строки номер организации без пробелов на концах
                     String moving = st.nextToken().trim(); // Извлекаем из строки номер организации без пробелов на концах
                     String eattype = st.nextToken().trim(); // Извлекаем из строки номер организации без пробелов на концах
+                    String weight = st.nextToken().trim();
                     String engname = st.nextToken().trim(); // Извлекаем из строки номер организации без пробелов на концах
 
 
-                    addData(db,name,ordering,movetype,moving,eattype,engname); // Добавляем название и телефон в базу данных
+                    addData(db,name,ordering,movetype,moving,eattype,weight,engname); // Добавляем название и телефон в базу данных
                 }
             }
 
@@ -121,36 +127,40 @@ public class MySQLite extends SQLiteOpenHelper {
         String typeQuery="";
         switch((int)type){
             case(0):
-                typeQuery="NAME";
+                typeQuery=NAME;
                 break;
             case(1):
-                typeQuery="ORDERING";
+                typeQuery=ORDERING;
                 break;
             case(2):
-                typeQuery="MOVETYPE";
+                typeQuery=MOVETYPE;
                 break;
             case(3):
-                typeQuery="MOVING";
+                typeQuery=MOVING;
                 break;
             case(4):
-                typeQuery="EATTYPE";
+                typeQuery=EATTYPE;
                 break;
             case(5):
-                typeQuery="ENGNAME";
+                typeQuery=WEIGHT;
+                break;
+            case(6):
+                typeQuery=ENGNAME;
                 break;
             default:
                 typeQuery="";
                 break;
         }
        if (filter.equals("")) {
-           selectQuery = "SELECT  * FROM " + TABLE_NAME + " ORDER BY " + typeQuery;
+           selectQuery = "SELECT  * FROM " + TABLE_NAME;
       } else {
                selectQuery = "SELECT  * FROM " + TABLE_NAME + " WHERE " + typeQuery + " LIKE " + "'%" + filter.toLowerCase() + "%'" + " ORDER BY " + typeQuery;
 
 
        }
+       System.out.println(selectQuery);
         SQLiteDatabase db = this.getReadableDatabase(); // Доступ к БД
-        Cursor cursor = db.rawQuery(selectQuery, null); // Выполнение SQL-запроса
+        @SuppressLint("Recycle") Cursor cursor = db.rawQuery(selectQuery, null); // Выполнение SQL-запроса
 
         StringBuilder data = new StringBuilder(); // Переменная для формирования данных из запроса
 
@@ -163,16 +173,19 @@ public class MySQLite extends SQLiteOpenHelper {
                 int mt = cursor.getColumnIndex(MOVETYPE);
                 int mv = cursor.getColumnIndex(MOVING);
                 int et  = cursor.getColumnIndex(EATTYPE);
+                int wh = cursor.getColumnIndex(WEIGHT);
                 int eng_n  = cursor.getColumnIndex(ENGNAME);
 
                 String name = cursor.getString(n); // Чтение названия организации
+                System.out.println(name);
                 String ordering = cursor.getString(o); // Чтение названия организации
                 String movetype = cursor.getString(mt); // Чтение телефонного номера
                 String moving = cursor.getString(mv); // Чтение телефонного номера
                 String eattype = cursor.getString(et); // Чтение телефонного номера
+                String weight = cursor.getString(wh);
                 String engname = cursor.getString(eng_n); // Чтение телефонного номера
 
-                data.append(String.valueOf(++num) + ") " + name + ": " + ordering + " " + movetype + " " + moving +" " + eattype + " " + engname + "\n");
+                data.append(String.valueOf(++num)).append(") ").append(name).append(": ").append(ordering).append(" ").append(movetype).append(" ").append(moving).append(" ").append(eattype).append(" ").append(weight).append(" ").append(engname).append("\n");
             } while (cursor.moveToNext()); // Цикл пока есть следующая запись
         }
         return data.toString(); // Возвращение результата

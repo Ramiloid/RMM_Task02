@@ -11,10 +11,13 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/RMM_08_JSOUP" />
             <option value="$PROJECT_DIR$/RMM_Task02_Android" />
             <option value="$PROJECT_DIR$/RMM_Task04" />
             <option value="$PROJECT_DIR$/RMM_Task05" />
             <option value="$PROJECT_DIR$/RMM_Task06" />
+            <option value="$PROJECT_DIR$/RMM_Task07" />
+            <option value="$PROJECT_DIR$/RMM_Task07_Cr" />
             <option value="$PROJECT_DIR$/rmm_task01_android" />
             <option value="$PROJECT_DIR$/rmm_task03_android" />
           </set>

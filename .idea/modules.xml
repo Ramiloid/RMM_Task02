@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/RMM_Taks02.iml" filepath="$PROJECT_DIR$/.idea/modules/RMM_Taks02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RMM_08_JSOUP/RMM_Taks02.RMM_08_JSOUP.iml" filepath="$PROJECT_DIR$/.idea/modules/RMM_08_JSOUP/RMM_Taks02.RMM_08_JSOUP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RMM_08_JSOUP/RMM_Taks02.RMM_08_JSOUP.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/RMM_08_JSOUP/RMM_Taks02.RMM_08_JSOUP.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RMM_08_JSOUP/RMM_Taks02.RMM_08_JSOUP.main.iml" filepath="$PROJECT_DIR$/.idea/modules/RMM_08_JSOUP/RMM_Taks02.RMM_08_JSOUP.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RMM_08_JSOUP/RMM_Taks02.RMM_08_JSOUP.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/RMM_08_JSOUP/RMM_Taks02.RMM_08_JSOUP.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/RMM_Task02_Android/RMM_Taks02.RMM_Task02_Android.iml" filepath="$PROJECT_DIR$/.idea/modules/RMM_Task02_Android/RMM_Taks02.RMM_Task02_Android.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/RMM_Task02_Android/RMM_Taks02.RMM_Task02_Android.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/RMM_Task02_Android/RMM_Taks02.RMM_Task02_Android.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/RMM_Task02_Android/RMM_Taks02.RMM_Task02_Android.main.iml" filepath="$PROJECT_DIR$/.idea/modules/RMM_Task02_Android/RMM_Taks02.RMM_Task02_Android.main.iml" />
@@ -19,6 +23,14 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/RMM_Task06/RMM_Taks02.RMM_Task06.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/RMM_Task06/RMM_Taks02.RMM_Task06.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/RMM_Task06/RMM_Taks02.RMM_Task06.main.iml" filepath="$PROJECT_DIR$/.idea/modules/RMM_Task06/RMM_Taks02.RMM_Task06.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/RMM_Task06/RMM_Taks02.RMM_Task06.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/RMM_Task06/RMM_Taks02.RMM_Task06.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RMM_Task07/RMM_Taks02.RMM_Task07.iml" filepath="$PROJECT_DIR$/.idea/modules/RMM_Task07/RMM_Taks02.RMM_Task07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RMM_Task07/RMM_Taks02.RMM_Task07.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/RMM_Task07/RMM_Taks02.RMM_Task07.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RMM_Task07/RMM_Taks02.RMM_Task07.main.iml" filepath="$PROJECT_DIR$/.idea/modules/RMM_Task07/RMM_Taks02.RMM_Task07.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RMM_Task07/RMM_Taks02.RMM_Task07.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/RMM_Task07/RMM_Taks02.RMM_Task07.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RMM_Task07_Cr/RMM_Taks02.RMM_Task07_Cr.iml" filepath="$PROJECT_DIR$/.idea/modules/RMM_Task07_Cr/RMM_Taks02.RMM_Task07_Cr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RMM_Task07_Cr/RMM_Taks02.RMM_Task07_Cr.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/RMM_Task07_Cr/RMM_Taks02.RMM_Task07_Cr.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RMM_Task07_Cr/RMM_Taks02.RMM_Task07_Cr.main.iml" filepath="$PROJECT_DIR$/.idea/modules/RMM_Task07_Cr/RMM_Taks02.RMM_Task07_Cr.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RMM_Task07_Cr/RMM_Taks02.RMM_Task07_Cr.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/RMM_Task07_Cr/RMM_Taks02.RMM_Task07_Cr.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/rmm_task01_android/RMM_Taks02.rmm_task01_android.iml" filepath="$PROJECT_DIR$/.idea/modules/rmm_task01_android/RMM_Taks02.rmm_task01_android.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/rmm_task01_android/RMM_Taks02.rmm_task01_android.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/rmm_task01_android/RMM_Taks02.rmm_task01_android.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/rmm_task01_android/RMM_Taks02.rmm_task01_android.main.iml" filepath="$PROJECT_DIR$/.idea/modules/rmm_task01_android/RMM_Taks02.rmm_task01_android.main.iml" />
