@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RMM_Task07</string>
+    <string name="Город">Pavlodar, KZ</string>
+    <string name="Язык">ru</string>
+    <string name="загрузка_данных">загрузка данных…</string>
+    <string name="Обновить">ОБНОВИТЬ</string>
+</resources>
