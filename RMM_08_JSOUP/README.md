@@ -1,10 +1,6 @@
-# TSN_DEMO_08_JSOUP_Rates
-Курсы валют (JSOUP)
+# RMM_Task08_JSoup
 
-![Screenshot](screenshot2.png)
+Последние релизы cryptomat-а (JSOUP)
 
-![Screenshot](jsoup1.jpg)
+![Screenshot](Screenshot.png)
 
-![Screenshot](jsoup2.jpg)
-
-![Screenshot](jsoup3.jpg)
